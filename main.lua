@@ -6,9 +6,10 @@ local Players = game:GetService("Players")
 local CONFIG = {
     LARGE_SIZE = Vector3.new(50, 50, 50),
     DISABLED_SIZE = Vector3.new(0, 0, 0),
-    UPDATE_INTERVAL = 0.5,
+    UPDATE_INTERVAL = 0.3,
+    
     UI = {
-        POSITION = Vector2.new(20, 20),
+        POSITION = Vector2.new(20, 200),
         BUTTON_SIZE = Vector2.new(200, 40),
         TEXT_SIZE = 16,
         PADDING = 10,
